@@ -12,7 +12,7 @@ param (
 $roles = "Greenlight IDE User,Security Insights,Reviewer,Submitter"
 
 # Faz a configuracao do ambiente da POV
-$empresa = "Partner_$nomeEmpresa"
+$empresa = "POV_$nomeEmpresa"
 VeracodeAPI.exe -action createteam -teamname $empresa
 
 # Faz a configuracao do Header
