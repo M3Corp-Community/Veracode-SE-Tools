@@ -13,10 +13,7 @@ $pastaVeracode = "D:\Veracode" # O caminho da pasta onde tem as ferramentas da V
 
 # Configurações
 $roles = "Greenlight IDE User,Security Insights,Reviewer,Submitter"
-
-# Faz a configuracao do ambiente da POV
 $empresa = "POV_$nomeEmpresa"
-VeracodeAPI.exe -action createteam -teamname $empresa
 
 # Faz a configuracao do Header
 $Header = 'Nome', 'Sobrenome', 'Email'
