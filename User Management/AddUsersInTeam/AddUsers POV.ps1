@@ -12,8 +12,8 @@ $pastaVeracode = "D:\Veracode" # O caminho da pasta onde tem as ferramentas da V
 [Environment]::SetEnvironmentVariable("Path", $env:Path + ";$pastaVeracode")
 
 # Configurações
-$roles = "Greenlight IDE User,Security Insights,Reviewer,Submitter,Creator"
-$empresa = "$nomeEmpresa"
+$roles = "Greenlight IDE User,Security Insights,Reviewer,Submitter"
+$empresa = "POV_$nomeEmpresa"
 
 # Faz a configuracao do Header
 $Header = 'Nome', 'Sobrenome', 'Email'
